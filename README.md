@@ -63,8 +63,8 @@ not allowed from any VLAN; sole exception is allowing access to the UDM-P itself
 
 Details see [Firewall](#Firewall)
 
-![logical network](assets/UDM-P_logical_network.svg)
-diagram created with: <https://lucid.app/documents/view/2e7294c0-6628-45b6-8b2d-1b2a5b47b208>
+![logical network](/assets/UDM-P%20logical%20network.svg)
+
 
 ## Configuration
 
