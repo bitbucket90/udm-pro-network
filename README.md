@@ -44,11 +44,12 @@ VLANs:
 | VLAN | CIDR | Medium | SSID | Purpose |
 | ---: | ---: | ------ | ---- | ------- |
 | 1  | 10.0.90.0/24 | Wired 1GbE | n/a | backhaul, management |
-| 10 | 10.0.10.0/24 | Wired/Wireless | jenni.ap | trusted home net |
-| 20 | 10.0.20.0/24 | Wireless | jenni.guest | guests, internet only |
-| 30 | 10.0.30.0/24 | Wireless | jenni.iot | IoT devices, internet only |
-| 40 | 10.0.40.0/24 | Wireless | jenni.media | media devices, internet only |
-| 50 | 10.0.50.0/24 | Wired | n/a | PoE camera devices, no internet |
+| 10 | 10.0.10.0/24 | Wired/Wireless | noname.ap | trusted home net |
+| 20 | 10.0.20.0/24 | Wireless | noname.guest | guests, internet only |
+| 30 | 10.0.30.0/24 | Wireless | noname.iot | IoT devices, internet only |
+| 40 | 10.0.40.0/24 | Wireless | noname.media | media devices, internet only |
+| 50 | 10.0.50.0/24 | Wireless| noname.cameras | PoE camera devices, no internet |
+| 60 | 10.0.60.0/22 | Wired | n/a | camera devices, no internet |
 
 For my network, I chose ranges from the 10/8 private address space, feel free to pick different ranges
 from [RFC1918](https://datatracker.ietf.org/doc/html/rfc1918), e.g. from the 172.16/12 or 192.168/16 ranges.
