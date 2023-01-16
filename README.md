@@ -35,7 +35,7 @@ This is the current physical wired topology, with the UDM-Pro as the gateway,
 and one PoE-enabled UI switch on each floor. House ethernet wiring is good for up to 1 Gbit/s,
 with all runs made in CAT5e; same for patch cables.
 
-![backhaul topo](/assets/UDP-Pro-topo.png)
+Will update with new topology
 
 ### Network segmentation
 
